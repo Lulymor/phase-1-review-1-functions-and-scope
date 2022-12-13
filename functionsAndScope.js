@@ -19,6 +19,7 @@ while(time > 0){
     let day = "Monday"
     console.log(`Tick tock! ${time} seconds left`)
     time--
+    console.log(day);
 }
 console.log("Time is up!")
 
@@ -28,8 +29,10 @@ console.log("Time is up!")
 let iceCreamFlavor = "Strawberry"
 function createIceCream(iceCreamFlavor){
     // Print out the value of the "iceCreamFlavor" variable here using console.log(), and notice what happens in the console.
+console.log(iceCreamFlavor);        
 }
 createIceCream("Matcha")
+console.log(iceCreamFlavor);
 // Print out the value of the "iceCreamFlavor" variable here using console.log(), and notice what happens in the console.
 
 // Exercise # 3 - Global Scope: What happens when you create a variable in global scope and change that variable's value inside of a function or block of code?
@@ -46,7 +49,8 @@ changePasta()
  * Step 3 - Inside of the "guacamoleMaker" function, invoke the "mixIngredients" function. On the following line, print the string "All done!" to the console.
  * Step 4 - Invoke the "guacamoleMaker" function: Make sure to pass in the "mixIngredients" function as an argument of the "guacamoleMaker" function.
  */
-
+function guacamoleMaker(){}
+function mixIngredients(){}
 /*
  * Your code goes here
  */
