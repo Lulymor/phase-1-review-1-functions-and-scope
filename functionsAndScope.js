@@ -1,10 +1,13 @@
 // Deliverable # 1 - Write the code to declare a function named "sum" that adds two numbers together.
-
+function sum(a,b){
+    console.log(a+b);
+}
 /*
  * Your code goes here
  */
 
 // Deliverable # 2 - Write the code to invoke (call) your "sum" function.
+sum(1, 2);
 
 /*
  * Your code goes here
